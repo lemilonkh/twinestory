@@ -3,7 +3,7 @@ A module for the [Godot Engine](http://godotengine.org) for parsing [Twine](http
 
 This leverages Twine as a story editor for Godot projects.  
 You could also use it as a dialog system (example scene will be provided at a later date).  
-More complex scripting (global variables, conditional text, text generation via [TraceryCpp](https://www.npmjs.com/package/twine_to_json) is coming (when that library and the corresponding Godot wrapper is ready)!
+More complex scripting is coming! Global variables, conditional text, text generation via [TraceryCpp](https://www.npmjs.com/package/twine_to_json) (when that library and the corresponding Godot wrapper are ready)!
 
 ## Installation
 1. Clone this repository
