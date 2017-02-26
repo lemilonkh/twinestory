@@ -7,12 +7,13 @@ More complex scripting is coming! Global variables, conditional text, text gener
 
 ## Installation
 1. Clone this repository
-2. Put it into your Godot project (in folder "modules/twine-story")
+2. Put it into your Godot project (in folder `modules/twine-story`)
 3. Create a RichTextField in your scene
 4. Attach the script `story_label.gd` to your RichTextField
 5. If you haven't already, change your Twine 2 Story format to Snowman
 6. Export to HTML, then use `twinetojson` to make JSON out of it (don't parse markdown using the `-m` flag):
    `twinetojson -i story_snowman.html -o story.json -p -m`
 7. Change the script path in the Inspector to your Twine JSON file
-8. ???
-9. Profit
+8. Connect the `meta_clicked` signal of the RichTextField to its script 
+9. ???
+10. Profit
